@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: fabricioveronez/go-webapp:{{tag}}
+        image: fabricioveronez/web-live-app:{{tag}}
         ports:
         - containerPort: 8080
 ---
